@@ -1,5 +1,5 @@
 import "./Skills.css";
-// import certificate1 from "./Certificates/Programming in Java Nptel Ayush.pdf";
+import certificate1 from "./Certificates/Programming in Java Nptel Ayush.pdf";
 import certificate2 from "./Certificates/internship.pdf";
 function Skills() {
     const skillData = [
@@ -71,7 +71,7 @@ function Skills() {
             <div className="certification">
                 <h3 className="heading">Java Certification</h3>
                 <iframe
-                    // src={certificate1}
+                    src={certificate1}
                     width="100%"
                     height="650px"
                     title="Java Certification"
@@ -84,7 +84,7 @@ function Skills() {
                     <div className="pdf-item">
 
                         <iframe
-                            // src={certificate2}
+                            src={certificate2}
                             width="100%"
                             height="700px"
                             title="Java Internship Certification"
