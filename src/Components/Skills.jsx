@@ -6,12 +6,10 @@ function Skills() {
         { name: "Java", level: 90 },
         { name: "React", level: 70 },
         { name: "Spring Boot", level: 60 },
-        { name: "HTML & CSS", level: 90 },
-        { name: "JavaScript", level: 65 },
         { name: "MySQL", level: 60 },
         { name: "C", level: 90 },
-        { name: "Data Structure", level: 70 },
-        { name: "C++", level: 70 },
+        { name: "Data Structure", level: 50 },
+        { name: "C++", level: 50 },
     ];
 
     return (
