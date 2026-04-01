@@ -1,0 +1,52 @@
+.dashboard {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.typing {
+  font-size: 22px;
+  font-weight: 500;
+  color: green;
+  min-height: 30px;
+}
+
+/* Cursor */
+.typing::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.profile-img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Social icons */
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-link {
+  font-size: 32px;
+  color: #0a66c2;
+  transition: transform 0.3s;
+}
+
+.social-link:hover {
+  transform: scale(1.2);
+}
