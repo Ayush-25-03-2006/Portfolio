@@ -1,5 +1,5 @@
 import "./Skills.css";
-import certificate1 from "./Certificates/Programming in Java Nptel Ayush.pdf";
+import certificate1 from "./Certificates/Programming_In_Java_Nptel_Ayush.pdf";
 import certificate2 from "./Certificates/internship.pdf";
 function Skills() {
     const skillData = [
