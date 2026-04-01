@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import "./Dashboard.css";
-import image from "../Images/photo_ayush.jpg";
+import image from "./Images/photo_ayush.jpg";
 
 function Dashboard() {
   const text = "Interested In Backend Development";
