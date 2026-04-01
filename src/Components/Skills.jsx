@@ -45,14 +45,6 @@ function Skills() {
                     </li>
 
                     <li>
-                        <strong>HTML & CSS:</strong> Strong understanding of web design
-                        principles and ability to create visually appealing web pages.
-                    </li>
-                    <li>
-                        <strong>JavaScript:</strong> Knowledgeable in JavaScript for
-                        enhancing web interactivity and functionality.
-                    </li>
-                    <li>
                         <strong>MySQL:</strong> Familiar with database design and
                         management using MySQL.
                     </li>
