@@ -38,8 +38,10 @@
 
 /* Social icons */
 .social-icons {
-  margin: 15px 0;
-  gap: 20px;
+  margin: 15px;
+  display: flex;
+  gap: 20px; /* Space between icons */
+  justify-content: center;
 }
 
 .social-link {
