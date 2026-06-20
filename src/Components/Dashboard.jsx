@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 import "./Dashboard.css";
 import image from "./Images/photo_ayush.jpg";
 
@@ -24,12 +25,10 @@ function Dashboard() {
       <h2>Hi 👋</h2>
       <h1>I am Ayush</h1>
 
-      {/* Typing Text */}
       <h3 className="typing">{displayText}</h3>
 
       <p>Java | React | Spring Boot</p>
 
-      {/* Social Icons */}
       <div className="social-icons">
         <a
           href="https://www.linkedin.com/in/ayush-kumar-43051728b/"
@@ -38,6 +37,15 @@ function Dashboard() {
           className="social-link"
         >
           <FaLinkedin />
+        </a>
+
+        <a
+          href="https://github.com/Ayush-25-03-2006"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-link"
+        >
+          <FaGithub />
         </a>
       </div>
 
