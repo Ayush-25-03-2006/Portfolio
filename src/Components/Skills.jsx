@@ -1,6 +1,7 @@
 import "./Skills.css";
 import certificate1 from "./Certificates/Programming_In_Java_Nptel_Ayush.pdf";
 import certificate2 from "./Certificates/internship.pdf";
+import certificate3 from './Certificates/oops_nptel.jpeg';
 function Skills() {
     const skillData = [
         { name: "Java", level: 90 },
@@ -65,6 +66,15 @@ function Skills() {
                     width="100%"
                     height="650px"
                     title="Java Certification"
+                ></iframe>
+            </div>
+            <div className="certification">
+                <h3 className="heading">Object Oriented Programming Certification</h3>
+                <iframe
+                    src={certificate3}
+                    width="100%"
+                    height="650px"
+                    title="OOPS Certification"
                 ></iframe>
             </div>
             <div className="certification">
