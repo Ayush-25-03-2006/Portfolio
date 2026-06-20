@@ -1,7 +1,7 @@
 import "./Skills.css";
 import certificate1 from "./Certificates/Programming_In_Java_Nptel_Ayush.pdf";
 import certificate2 from "./Certificates/internship.pdf";
-import certificate3 from './Certificates/oops_nptel.jpeg';
+import certificate3 from './Certificates/oops_nptel.pdf';
 function Skills() {
     const skillData = [
         { name: "Java", level: 90 },
